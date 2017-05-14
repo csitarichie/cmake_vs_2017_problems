@@ -1,0 +1,41 @@
+{
+    // See https://go.microsoft.com//fwlink//?linkid=834763 for more information about this file.
+    "configurations": [
+      {
+        "name": "x86-Debug-Ninja",
+        "generator": "Ninja",
+        "configurationType": "Debug",
+        "buildRoot": "${workspaceRoot}\\CMakeBuild\\${workspaceHash}\\build\\${name}",
+        "cmakeCommandArgs": "",
+        "buildCommandArgs": "-v",
+        "ctestCommandArgs": "-C Debug -V"
+      },
+      {
+        "name": "x86-Release-Ninja",
+        "generator": "Ninja",
+        "configurationType": "Release",
+        "buildRoot": "${workspaceRoot}\\CMakeBuild\\${workspaceHash}\\build\\${name}",
+        "cmakeCommandArgs": "",
+        "buildCommandArgs": "-v",
+        "ctestCommandArgs": "-C Release -V"
+      },
+      {
+        "name": "x64-Debug-MSbuild",
+        "generator": "Visual Studio 15 2017 Win64",
+        "configurationType": "Debug",
+        "buildRoot": "${workspaceRoot}\\CMakeBuild\\${workspaceHash}\\build\\${name}",
+        "cmakeCommandArgs": "",
+        "buildCommandArgs": "-m",
+        "ctestCommandArgs": "-C Debug -V"
+      },
+      {
+        "name": "x64-Release-MSbuild",
+        "generator": "Visual Studio 15 2017 Win64",
+        "configurationType": "Release",
+        "buildRoot": "${workspaceRoot}\\CMakeBuild\\${workspaceHash}\\build\\${name}",
+        "cmakeCommandArgs": "",
+        "buildCommandArgs": "-m -v:minimal",
+        "ctestCommandArgs": "-C Release -V"
+      }
+    ]
+}

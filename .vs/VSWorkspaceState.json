@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\generator",
+    "\\generator\\src",
+    "\\generator\\test",
+    "\\generator\\test\\first",
+    "\\gen_inputs",
+    "\\gen_inputs\\a_lib",
+    "\\gen_inputs\\b_lib",
+    "\\gen_inputs\\c_lib",
+    "\\libs"
+  ],
+  "SelectedNode": "\\gen_inputs\\c_lib\\test_lib.hpp",
+  "PreviewInSolutionExplorer": false
+}

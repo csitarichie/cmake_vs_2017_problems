@@ -5,3 +5,5 @@ Makefile
 cmake_install.cmake
 install_manifest.txt
 CTestTestfile.cmake
+/CMakeBuild/fcbbd675-3bf3-b93f-9caa-c5e5186e1131/build/x64-Debug-MSbuild
+*.opendb

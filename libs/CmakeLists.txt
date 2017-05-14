@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.2)
+project(MsvsTestLib)
+
+message(STATUS "Project name: ${PROJECT_NAME}")
+
+add_subdirectory(first_lib)
+add_subdirectory(2nd_lib)

@@ -1,0 +1,2 @@
+set(MSVS_REQURED_LIBS first_lib)
+set(MSVS_REQURED_GEN_LIBS a_lib)
