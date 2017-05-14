@@ -1,0 +1,7 @@
+#include "c_lib/test_lib.hpp"
+#include "b_lib/test_lib.hpp"
+
+GenCLib::GenCLib()
+{
+    to_say.append(GenBLib().to_string());
+}

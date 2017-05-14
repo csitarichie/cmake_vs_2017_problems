@@ -6,7 +6,7 @@
         "generator": "Ninja",
         "configurationType": "Debug",
         "buildRoot": "${workspaceRoot}\\CMakeBuild\\${workspaceHash}\\build\\${name}",
-        "cmakeCommandArgs": "",
+        "cmakeCommandArgs": "-DCMAKE_BUILD_TYPE=debug",
         "buildCommandArgs": "-v",
         "ctestCommandArgs": "-C Debug -V"
       },
@@ -15,7 +15,7 @@
         "generator": "Ninja",
         "configurationType": "Release",
         "buildRoot": "${workspaceRoot}\\CMakeBuild\\${workspaceHash}\\build\\${name}",
-        "cmakeCommandArgs": "",
+        "cmakeCommandArgs": "-DCMAKE_BUILD_TYPE=release",
         "buildCommandArgs": "-v",
         "ctestCommandArgs": "-C Release -V"
       },
@@ -24,7 +24,7 @@
         "generator": "Visual Studio 15 2017 Win64",
         "configurationType": "Debug",
         "buildRoot": "${workspaceRoot}\\CMakeBuild\\${workspaceHash}\\build\\${name}",
-        "cmakeCommandArgs": "",
+        "cmakeCommandArgs": "-DCMAKE_BUILD_TYPE=debug",
         "buildCommandArgs": "-m",
         "ctestCommandArgs": "-C Debug -V"
       },
@@ -33,7 +33,7 @@
         "generator": "Visual Studio 15 2017 Win64",
         "configurationType": "Release",
         "buildRoot": "${workspaceRoot}\\CMakeBuild\\${workspaceHash}\\build\\${name}",
-        "cmakeCommandArgs": "",
+        "cmakeCommandArgs": "-DCMAKE_BUILD_TYPE=release",
         "buildCommandArgs": "-m -v:minimal",
         "ctestCommandArgs": "-C Release -V"
       }

@@ -1,1 +1,1 @@
-set(MSVS_REQURED_GEN_LIBS c_lib)
+set(MSVS_REQURED_LIBS c_lib)

@@ -4,13 +4,14 @@
     "\\generator",
     "\\generator\\src",
     "\\generator\\test",
+    "\\generator\\test\\3rd",
     "\\generator\\test\\first",
+    "\\generator\\test\\second",
     "\\gen_inputs",
-    "\\gen_inputs\\a_lib",
-    "\\gen_inputs\\b_lib",
-    "\\gen_inputs\\c_lib",
-    "\\libs"
+    "\\libs",
+    "\\libs\\2nd_lib",
+    "\\libs\\first_lib"
   ],
-  "SelectedNode": "\\gen_inputs\\c_lib\\test_lib.hpp",
+  "SelectedNode": "\\generator\\test\\second\\main.cpp",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,11 @@
+#pragma once
+
+#include <string>
+
+class GenCLib
+{
+public:
+    GenCLib();
+    const std::string& to_string() const { return to_say; }
+    std::string to_say = { "I'm GenCLib and I need:" };
+};

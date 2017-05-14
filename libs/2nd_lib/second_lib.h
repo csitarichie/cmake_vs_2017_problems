@@ -4,6 +4,7 @@
 
 class SecondLib
 {
-    const std::string& to_string(); const
-        std::string to_say = { "I'm SecondLib" };
+public:
+    const std::string& to_string() const { return to_say; }
+    const std::string to_say = { "I'm SecondLib" };
 };

@@ -37,8 +37,8 @@ function(msvs_test_gen_lib gen_src_dir)
             OUTPUT_VARIABLE  output
             RESULT_VARIABLE  result
     )
-     # message(STATUS "execute_process result:${result}")
-     # message(STATUS "execute_process output:${output}")
+     message(STATUS "execute_process result:${result}")
+     message(STATUS "execute_process output:${output}")
 
     file(
             GLOB MSVS_TEST_GEN_OUT_FILES
