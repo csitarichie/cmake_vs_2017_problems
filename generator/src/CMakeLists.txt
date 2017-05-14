@@ -50,7 +50,7 @@ function(msvs_test_gen_lib gen_src_dir)
         
     message(STATUS "lib:${MSVS_TEST_GEN_LIB_NAME} adding generated files:\"${MSVS_TEST_GEN_OUT_FILES}\"")
 
-    file(GLOB MSVS_TEST_GEN_INPUT_FILES "${gen_src_dir}/*.cpp" "${gen_src_dir}/*.hpp")
+    file(GLOB MSVS_TEST_GEN_INPUT_FILES "${gen_src_dir}/*.gensrc")
     list(SORT MSVS_TEST_GEN_INPUT_FILES)
 
     add_custom_command(
